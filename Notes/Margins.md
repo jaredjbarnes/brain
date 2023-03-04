@@ -1,0 +1,3 @@
+Margins within text documents makes sense, however, within applications margins become difficult. Rules like margin-collapse become difficult to reason about. 
+
+This is why layouts components like ZStack, HStack and VStack are so necessary. The components decide how the children components will display. Using Spacers instead of margins become a declarative way of keeping components visually separate.
